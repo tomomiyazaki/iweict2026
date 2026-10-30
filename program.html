@@ -14,6 +14,42 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+
+ <!-- 追加CSS -->
+        <style>
+            .slot {
+                padding: 14px 18px;
+                background: #ffffff;
+                border: 1px solid #dce4ec;
+                border-radius: 7px;
+                margin: 8px 0;
+                display: grid;
+                grid-template-columns: 115px 1fr;
+                gap: 14px;
+            }
+            .slot h3 {
+                margin: 0 0 4px;
+                font-size: 16px;
+            }
+            .slot p {
+                margin: 0 0 3px;
+            }
+            .time {
+                font-weight: 700;
+                white-space: nowrap;
+            }
+            .slot .small {
+                font-size: 13px;
+                color: #60738a;
+            }
+            @media (max-width: 650px) {
+                .slot {
+                    grid-template-columns: 1fr;
+                    gap: 4px;
+                }
+            }
+        </style>
+
     </head>
 
     <body>
@@ -60,12 +96,99 @@
 
 <!-- Post preview-->
 <div class="post-preview">
-TBA
+<h1 class="post-title">Overview</h1>
+<ul>
+<li>November 4: Workshop, <a href="https://zoom.us/j/98636804923?pwd=Ux6UCPRCTrCWNpkgqGU8s5NupjTAiX.1"><u>Zoom Meeting URL</u></a></li>
+<li>November 5: Lab Tour</li>
+</ul>
 </div>
 
 
 
+<div class="post-preview">
+<h1 class="post-title">Technical Program</h1>
+<table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Time</th>
+          <th scope="col">Session</th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+<tr> <td>8:30-9:00</td> <td>Registration</td> <td>
+<tr><td>9:00-9:05</td> <td>Opening</td> <td>Prof. Shinichiro Omachi<br>Tohoku University</td></tr>
+<tr><td>9:05-9:35</td> <td><a href="#keynote1"><u>Keynote 1</u></a></td> <td>Prof. Yu Wang <br>Dalian University of Technology</td></tr>
+<tr><td>9:35-10:05</td> <td><a href="#keynote2"><u>Keynote 2</u></a></td> <td>Prof. Junghwan Cho<br>Yeungnam University</td></tr>
+<tr><td>10:05-10:20</td> <td>Coffee Break</td> <td></td></tr>
+<tr><td>10:20-11:44</td> <td><a href="#oral1"><u>Oral 1</u></a></td> <td></td></tr>
+<tr><td>11:44-13:00</td> <td>Lunch</td> <td></td></tr>
+<tr><td>13:00-14:05</td> <td><a href="#short_oral"><u>Short Oral</u></a></td> <td></td></tr>
+<tr><td>14:05-14:20</td> <td>Coffee Break</td> <td></td></tr>
+<tr><td>14:20-15:20</td> <td><a href="#oral2"><u>Oral 2</u></a></td> <td></td></tr>
+<tr><td>15:20-15:25</td> <td>Break</td> <td></td></tr>
+<tr><td>15:25-16:37</td> <td><a href="#oral3"><u>Oral 3</u></a></td> <td></td></tr>
+<tr><td>16:37-16:42</td> <td>Closing</td> <td>Prof. Hui Li<br>Dalian University of Technology</td></tr>
+<tr><td>17:00-18:30</td> <td>Banquet</td> <td><a href="https://www.tohoku.ac.jp/map/ja/?f=AY_C03"><u>Aoba Memorial Hall</u></a></td></tr>
+      </tbody>
+    </table>
+</div>
 
+
+
+ <!-- Details (next.htmlの内容を追加) -->
+<div class="post-preview">
+<h1 class="post-title">Details</h1>
+
+<h2 id="keynote1">Keynote Speech 1<span class="fs-6 fw-normal text-muted">(09:05–09:35)</span></h2><div class="slot"><div class="time">09:05–09:35</div>
+<div><h3>Integrated Photonics for Optical Communications and AI Data Centers</h3><p>Prof. Yu Wang</p><p class="small">Dalian University of Technology (online) · China · Online</p><p class="small">Session Chair: Prof. Hirohito Yamada, Tohoku University</p></div></div></div>
+
+
+<h2 id="keynote2">Keynote Speech 2 <span class="small">(09:35–10:05)</span></h2><div class="slot"><div class="time">09:35–10:05</div><div><h3>From Intelligent Sensing to Medical AI: Toward Multimodal and Multiscale Intelligence</h3><p>Prof. Junghwan Cho</p><p class="small">Yeungnam University · Korea</p><p class="small">Session Chair: Prof. Yongsong Huang, Tohoku University</p></div></div>
+
+
+<h2 id="oral1">Oral Session 1 <span class="small">(10:20–11:44)</span></h2>Session Chair: Prof. Hiroyasu Sato, Tohoku University
+<div class="slot"><div class="time">10:20–10:32</div><div><h3>A Visual Token Pruning Method for Efficient Vision–Language Model Inference</h3><p>Kai Xu, Changpei Zha, Tomo Miyazaki, Shinichiro Omachi</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">10:32–10:44</div><div><h3>A Stage-wise Comparison of JPEG Representations for Image Classification</h3><p>Changpei Zha, Tomo Miyazaki, Shinichiro Omachi</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">10:44–10:56</div><div><h3>Learning a Shared Starting Point for Test-Time Adaptive Image Compression</h3><p>Junyoung Jang, Tomo Miyazaki, Shinichiro Omachi</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">10:56–11:08</div><div><h3>On the Importance of Token Position in LLM Uncertainty Estimation</h3><p>Sujin Lee, Wooguil Pak</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">11:08–11:20</div><div><h3>Is Ignoring the Same as Refusing? Tool-Poisoning Instructions Revived by Tool Errors in LLM Agents</h3><p>Tae-Yun Kim, Chan-Hyung Kim, Jong-Hee M. Youn</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">11:20–11:32</div><div><h3>Performance Analysis of Multidimensional FlowSpectrum for Encrypted Traffic Classification</h3><p>Chanhyung Kim, Taeyun Kim, Jonghee M. Youn</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">11:32–11:44</div><div><h3>Enhancing Sparse 4-D Radar Perception via Local Distribution Modeling</h3><p>Dongming Yu, Tomo Miyazaki, Uwe Hanebeck, Shinichiro Omachi</p><p class="small">Tohoku University · Japan</p></div></div>
+
+
+<h2 id="short_oral">Short Oral Session <span class="small">(13:00–14:05)</span></h2>Session Chair: Prof. Shohei Mori, Tohoku University
+<div class="slot"><div class="time">13:00–13:05</div><div><h3>Observation-Quality-Aware Change Detection with Remote Sensing Foundation Models</h3><p>Ke Zhou, Tomo Miyazaki, Shinichiro Omachi</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">13:05–13:10</div><div><h3>Domain Alignment over Scale: Lightweight CLIP-to-DINOv3 Text Alignment for Photo-and-Attribute Retrieval on Animal Adoption Listings</h3><p>Yumin Byeon, Hoyoul Jung</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">13:10–13:15</div><div><h3>Effects of Reconstruction and Knowledge Distillation Losses on the Embedding Space of a Behavior-Equivalent Token</h3><p>Junseo Choi, Wooguil Pak</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">13:15–13:20</div><div><h3>Bank Layout Optimization for Zero-Skipping FPGA CNNs</h3><p>Yoo Joon Lee, Gyu Sang Choi</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">13:20–13:25</div><div><h3>SD-to-Framebuffer Bottleneck Analysis and SD Video Engine Offloading in a Nios II FPGA Multimedia System</h3><p>Yoon woo Jang, Sung won Kim</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">13:25–13:30</div><div><h3>Navigating Device–Server Trade-offs in Multi-User AR/VR Volumetric Streaming: Semantic-Aware, Collaborative, and Neural Approaches</h3><p>Kyujin Kim, Seonghun Kim, Manki Min, Young Deok Park</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">13:30–13:35</div><div><h3>Analysis of Throughput and Latency Impact of 802.11be MLO in Congested Environments</h3><p>Seonwoo Choi, Young Deok Park</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">13:35–13:40</div><div><h3>PAPR- and HPA-Aware Delay-Doppler Superimposed Pilot Location/Phase Selection for OFDM Systems</h3><p>Ingoo Choi, Kwonhue Choi</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">13:40–13:45</div><div><h3>Generalized Low-Complexity IRS-NOMA Design via User-Specific Phase Alignment and Boundary-Based Power Allocation</h3><p>Yeongin Kwon, Kwonhue Choi</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">13:45–13:50</div><div><h3>Review of Shared-Aperture Antennas and Reconfigurable Reflecting Surfaces</h3><p>Taichi Yoshimura, Kosuke Takahashi, Keisuke Konno, Qiang Chen</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">13:50–13:55</div><div><h3>A Survey of Delay/Disruption-Tolerant Networking Protocols for Deep Space Communications</h3><p>Jieun Choi, Manki Min, Minseo Yoon, Young Deok Park</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">13:55–14:00</div><div><h3>Bloom Filter-Based Vehicle ID Verification on Ethereum: Implementation and Measurement</h3><p>Dong Yeop Shin, Rathish Prabhu, Seung Yeob Nam</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">14:00–14:05</div><div><h3>Evaluating SAE J1939 Intrusion Detection: Missed Attacks and False Alarms</h3><p>Seung Je Kim, Gyu Sang Choi</p><p class="small">Yeungnam University · Korea</p></div></div>
+
+
+<h2 id="oral2">Oral Session 2 <span class="small">(14:20–15:20)</span></h2>Session Chair: Prof. Tomo Miyazaki, Tohoku University
+<div class="slot"><div class="time">14:20–14:32</div><div><h3>Millimeter-Wave Imaging Using Xenon Light as An Illumination Source</h3><p>Yuzheng Wang, Hiroyasu Sato, Qiang Chen</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">14:32–14:44</div><div><h3>Design of Dielectric-Free Frequency-Selective Surfaces Based on Multiport Network Theory</h3><p>Mengzhu Han, Wenrui Zheng, Hui Li</p><p class="small">Dalian University of Technology · China</p></div></div>
+<div class="slot"><div class="time">14:44–14:56</div><div><h3>Threshold-Based Probabilistic Slot Release and Acquisition for Fair V2V Unicast Communication</h3><p>Halilov Ruslan Julman ugli, Jin-Ghoo Choi</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">14:56–15:08</div><div><h3>Impact of Virtualized Baseband Function Placement on Energy Efficiency in Cell-Free mMIMO Systems</h3><p>Kai Akahane, Hiroki Nishiyama</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">15:08–15:20</div><div><h3>HME-RAW: Context-Consistent RAW Reconstruction from Low-Resolution RGB</h3><p>Kyeongmin Park, Tomo Miyazaki, Shinichiro Omachi</p><p class="small">Tohoku University · Japan</p></div></div>
+
+
+
+<h2 id="oral3">Oral Session 3 <span class="small">(15:25–16:37)</span></h2>Session Chair: Prof. Takashi Nose, Tohoku University
+<div class="slot"><div class="time">15:25–15:37</div><div><h3>Analyzing the Effects of Distillation and Decoder Architecture for Streaming Voice Conversion</h3><p>Sumiharu Kobayashi, Takashi Nose</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">15:37–15:49</div><div><h3>Comparative Analysis of SSL and ASR Representations for Flow-Based Voice Conversion</h3><p>Sota Watanabe, Rin Yamashita, Takashi Nose, Akinori Ito</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">15:49–16:01</div><div><h3>Design Considerations for Stable Speech-Driven Facial Landmark Generation</h3><p>Zikai Shu, Takashi Nose</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">16:01–16:13</div><div><h3>A Study on an Avatar-Based Poster Presentation Support System for Deaf and Hard-of-Hearing People </h3><p>Ryuka Sasaki, Takashi Nose</p><p class="small">Tohoku University · Japan</p></div></div>
+<div class="slot"><div class="time">16:13–16:25</div><div><h3>The Relationship Between Smart Contract Gas Costs and Local RPC Responsiveness in Dos Attacks</h3><p>Hyeong Geon Pak, Seung Yeob Nam</p><p class="small">Yeungnam University · Korea</p></div></div>
+<div class="slot"><div class="time">16:25–16:37</div><div><h3>Feasibility Conditions for Runtime Context Retention in Intermittent Agricultural Edge Inference</h3><p>Jae Kwang Lee, Young-Ho Sohn</p><p class="small">Yeungnam University · Korea</p></div></div>
 
                     </div>
                 </div>
